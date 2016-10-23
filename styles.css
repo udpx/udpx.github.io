@@ -30,7 +30,7 @@ body
 .large-header {
   font-size: 72px;
   letter-spacing: 40px;
-  top: 200px;
+  top: 100px;
 }
 
 .add-color.large-header {
@@ -40,7 +40,7 @@ body
 .small-header {
   font-size: 36px;
   letter-spacing: 20px;
-  top: 400px;
+  top: 300px;
 }
 
 @keyframes roll {
