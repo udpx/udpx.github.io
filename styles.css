@@ -43,6 +43,20 @@ body
   top: 400px;
 }
 
+.small-header:hover {
+  animation: roll 3s infinite;
+  transform: rotate(30deg);
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .add-color.small-header {
   color: #FF0080;
 }
