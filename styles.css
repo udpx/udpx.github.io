@@ -34,7 +34,7 @@ body
 }
 
 .add-color.large-header {
-  color: crimson;
+  color: #FF0080;
 }
 
 .small-header {
@@ -44,5 +44,5 @@ body
 }
 
 .add-color.small-header {
-  color: #1799B5;
+  color: #FF0080;
 }
