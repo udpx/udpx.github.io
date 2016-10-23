@@ -46,8 +46,8 @@ body
 }
 
 .small-header {
-  font-family: Montserrat,
+  font-family: Montserrat;
   font-size: 36px;
-  letter-spacing: 20px;
+  letter-spacing: 12px;
   top: 300px;
 }
