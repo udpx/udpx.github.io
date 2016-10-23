@@ -21,10 +21,15 @@ body
     width: 600px;
     text-align: center;
     font-size: 72px;
-    /*text-shadow: 0px 0px 10px dimgrey;*/
+    letter-spacing: 40px;
 
     top: 200px;
     right: 0;
-    left: 0;
+    left: 40px;
     margin: auto;
+}
+
+#header:hover {
+  color: crimson;
+  transition: color 1s
 }
