@@ -5,4 +5,7 @@ window.onload = function () {
   headers.forEach(function(header) {
     header.classList.add('add-color');
   });
+
+  var video = document.querySelector('.background-video');
+  video.classList.add('opaque-video');
 }

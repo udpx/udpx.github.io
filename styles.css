@@ -4,13 +4,20 @@ body
     font-family: 'Bungee Shade', helvetica;
 }
 
-#background-video
+.background-video
 {
     width: 100%;
     height: auto;
     max-height: 450px;
     position: relative;
     border-radius: 50%;
+    opacity: 0;
+}
+
+.background-video.opaque-video
+{
+  transition: 2s;
+  opacity: 1;
 }
 
 .header
@@ -28,7 +35,7 @@ body
 }
 
 .large-header {
-  font-size: 72px;
+  font-size: 60px;
   letter-spacing: 40px;
   top: 100px;
 }
