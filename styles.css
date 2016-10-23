@@ -1,7 +1,7 @@
 body
 {
     background-color: #000;
-    font-family: 'Bungee Shade', helvetica;
+    font-family: Montserrat, 'Bungee Shade', helvetica;
 }
 
 .background-video
@@ -16,7 +16,7 @@ body
 
 .background-video.opaque-video
 {
-  transition: 2s;
+  transition: opacity 6s;
   opacity: 1;
 }
 
@@ -38,29 +38,16 @@ body
   font-size: 60px;
   letter-spacing: 40px;
   top: 100px;
+  font-family: 'Bungee Shade', helvetica;
 }
 
 .add-color.large-header {
-  /*color: #FF0080;*/
+  color: #FF0080;
 }
 
 .small-header {
+  font-family: Montserrat,
   font-size: 36px;
   letter-spacing: 20px;
   top: 300px;
-}
-
-@keyframes roll {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.add-color.small-header {
-  color: #FF0080;
-  animation: roll 1s;
-  transition-delay: 1s;
 }

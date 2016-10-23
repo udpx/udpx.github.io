@@ -1,4 +1,4 @@
-console.log('hi');
+console.log('Hello to you, curious fellow!');
 
 window.onload = function () {
   var headers = document.querySelectorAll('.header');
