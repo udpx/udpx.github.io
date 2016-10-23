@@ -24,7 +24,7 @@ body
     right: 0;
     left: 40px;
     margin: auto;
-    transition: color 1s
+    transition: color 1500ms
 }
 
 .large-header {
@@ -33,7 +33,7 @@ body
   top: 200px;
 }
 
-.center-container:hover .large-header {
+.add-color.large-header {
   color: crimson;
 }
 
@@ -43,6 +43,6 @@ body
   top: 400px;
 }
 
-.center-container:hover .small-header {
+.add-color.small-header {
   color: #1799B5;
 }
