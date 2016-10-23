@@ -34,18 +34,13 @@ body
 }
 
 .add-color.large-header {
-  color: #FF0080;
+  /*color: #FF0080;*/
 }
 
 .small-header {
   font-size: 36px;
   letter-spacing: 20px;
   top: 400px;
-}
-
-.small-header:hover {
-  animation: roll 3s infinite;
-  transform: rotate(30deg);
 }
 
 @keyframes roll {
@@ -58,5 +53,6 @@ body
 }
 
 .add-color.small-header {
-  color: #FF0080;
+  /*color: #FF0080;*/
+  animation: roll 3s;
 }
