@@ -1,7 +1,7 @@
 body
 {
     background-color: #000;
-    font-family: 'Bungee Inline', helvetica;
+    font-family: 'Bungee Shade', helvetica;
 }
 
 #background-video
@@ -21,7 +21,7 @@ body
     width: 600px;
     text-align: center;
     font-size: 72px;
-    text-shadow: 0px 0px 10px dimgrey;
+    /*text-shadow: 0px 0px 10px dimgrey;*/
 
     top: 200px;
     right: 0;
