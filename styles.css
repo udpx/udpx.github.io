@@ -4,9 +4,49 @@ body
     font-family: Montserrat, 'Bungee Shade', helvetica;
 }
 
+nav
+{
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  z-index: 3;
+  opacity: 0.5;
+}
+
+.clearfix:after
+{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.nav-element
+{
+  float: right;
+  border-right: 2px solid green;
+  width: 150px;
+  height: 100%;
+
+  padding-top: 10px;
+  text-align: center;
+  font-size: 24px;
+
+  font-family: montserrat;
+  color: #fff;
+  z-index: 4;
+}
+
+.left-most-nav
+{
+  border-left: 2px solid green;
+}
+
 .background-video
 {
     width: 100%;
+    right: 40px;
     height: auto;
     max-height: 450px;
     position: relative;

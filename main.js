@@ -1,11 +1,20 @@
 console.log('Hello to you, curious fellow!');
 
-window.onload = function () {
-  var headers = document.querySelectorAll('.header');
-  headers.forEach(function(header) {
-    header.classList.add('add-color');
-  });
+addClassesOnLoad(
+  ['.large-description', 'add-color'],
+  ['.background-video', 'opaque-video']
+);
 
-  var video = document.querySelector('.background-video');
-  video.classList.add('opaque-video');
+function addClassesOnLoad () {
+  var args = [].slice.call(arguments);
+
+  window.onload = function () {
+    args.forEach(function(declaration) {
+      var elementName = declaration[0];
+      var className = declaration[1];
+
+      var element = document.querySelector(elementName);
+      element.classList.add(className);
+    })
+  }
 }
