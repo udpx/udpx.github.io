@@ -74,9 +74,8 @@ nav
 .background-video
 {
     width: 100%;
-    right: 40px;
     height: auto;
-    max-height: 450px;
+    max-height: 550px;
     position: relative;
     border-radius: 50%;
     opacity: 0;
