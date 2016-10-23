@@ -20,11 +20,11 @@ body
   opacity: 1;
 }
 
-.header
+.description
 {
     position: absolute;
     z-index: 2;
-    color: white;
+    color: #fff;
     width: 600px;
     text-align: center;
 
@@ -34,20 +34,21 @@ body
     transition: color 1500ms
 }
 
-.large-header {
+.large-description {
   font-size: 60px;
   letter-spacing: 40px;
   top: 100px;
   font-family: 'Bungee Shade', helvetica;
 }
 
-.add-color.large-header {
+.add-color.large-description {
   color: #FF0080;
 }
 
-.small-header {
+.small-description {
   font-family: Montserrat;
   font-size: 36px;
   letter-spacing: 12px;
+  text-shadow: 0px 0px 50px #fff;
   top: 300px;
 }
