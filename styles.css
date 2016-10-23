@@ -13,23 +13,36 @@ body
     border-radius: 50%;
 }
 
-#header
+.header
 {
     position: absolute;
     z-index: 2;
     color: white;
     width: 600px;
     text-align: center;
-    font-size: 72px;
-    letter-spacing: 40px;
 
-    top: 200px;
     right: 0;
     left: 40px;
     margin: auto;
+    transition: color 1s
 }
 
-#header:hover {
+.large-header {
+  font-size: 72px;
+  letter-spacing: 40px;
+  top: 200px;
+}
+
+.center-container:hover .large-header {
   color: crimson;
-  transition: color 1s
+}
+
+.small-header {
+  font-size: 36px;
+  letter-spacing: 20px;
+  top: 400px;
+}
+
+.center-container:hover .small-header {
+  color: #1799B5;
 }
