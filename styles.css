@@ -53,6 +53,7 @@ body
 }
 
 .add-color.small-header {
-  /*color: #FF0080;*/
-  animation: roll 3s;
+  color: #FF0080;
+  animation: roll 1s;
+  transition-delay: 1s;
 }
