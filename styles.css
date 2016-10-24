@@ -31,13 +31,11 @@ img
   display: block;
 }
 
-
 nav
 {
   position: fixed;
   display: block;
   width: 100%;
-  /*height: 50px;*/
   background-color: #000;
   z-index: 3;
   opacity: 0.5;
@@ -60,10 +58,15 @@ nav
   padding-bottom: 10px;
   text-align: center;
   font-size: 24px;
+  transition: font-size 0.5s;
 
   font-family: montserrat;
   color: #fff;
   z-index: 4;
+}
+
+.nav-element:hover {
+  font-size: 28px;
 }
 
 .left-most-nav
@@ -118,6 +121,10 @@ nav
   letter-spacing: 12px;
   text-shadow: 0px 0px 50px #fff;
   top: 300px;
+}
+
+.project-description {
+
 }
 
 footer
