@@ -72,6 +72,11 @@ nav
     font-size: 48px;
     width: 33%;
   }
+
+  video
+  {
+    display: none;
+  }
 }
 
 @media (min-device-width: 769px) {
