@@ -52,7 +52,7 @@ nav
 .nav-element
 {
   float: right;
-  border-right: 2px solid green;
+  border-right: 2px solid #FF0080;
 
   transition: font-size 0.3s;
 
@@ -84,15 +84,19 @@ nav
     width: 150px;
   }
 
+  .left-most-nav
+  {
+    border-left: 2px solid #FF0080;
+  }
+
   .nav-element:hover {
     font-size: 26px;
   }
 }
 
-
-.left-most-nav
+.right-most-nav
 {
-  border-left: 2px solid green;
+  border-right: none
 }
 
 .background-video
