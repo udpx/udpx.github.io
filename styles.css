@@ -14,7 +14,7 @@ b, span, strong, a, h1, h2, h3, h4, h5, article, i, button, figure, figcaption
 body
 {
   background-color: #000;
-  font-family: Montserrat, 'Bungee Shade', helvetica;
+  font-family: Roboto, Roboto;
 }
 a
 {
@@ -33,12 +33,13 @@ img
 
 nav
 {
+  top: 0px;
   position: fixed;
   display: block;
   width: 100%;
   background-color: #000;
   z-index: 3;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .clearfix:after
@@ -52,22 +53,42 @@ nav
 {
   float: right;
   border-right: 2px solid green;
-  width: 150px;
 
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-  font-size: 24px;
-  transition: font-size 0.5s;
+  transition: font-size 0.3s;
 
-  font-family: montserrat;
+  font-family: Roboto;
   color: #fff;
   z-index: 4;
+
+  cursor: pointer;
+  text-align: center;
 }
 
-.nav-element:hover {
-  font-size: 28px;
+@media (max-device-width: 768px) {
+  .nav-element
+  {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 48px;
+    width: 33%;
+  }
 }
+
+@media (min-device-width: 769px) {
+  .nav-element
+  {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    width: 150px;
+  }
+
+  .nav-element:hover {
+    font-size: 26px;
+  }
+}
+
 
 .left-most-nav
 {
@@ -78,16 +99,7 @@ nav
 {
     width: 100%;
     height: auto;
-    max-height: 550px;
-    position: relative;
-    border-radius: 50%;
-    opacity: 0;
-}
-
-.background-video.opaque-video
-{
-  transition: opacity 6s;
-  opacity: 1;
+    position: fixed;
 }
 
 .description
@@ -106,9 +118,9 @@ nav
 
 .large-description {
   font-size: 60px;
-  letter-spacing: 40px;
+  letter-spacing: 22px;
   top: 100px;
-  font-family: 'Bungee Shade', helvetica;
+  font-family: Roboto;
 }
 
 .add-color.large-description {
@@ -116,7 +128,7 @@ nav
 }
 
 .small-description {
-  font-family: Montserrat;
+  font-family: Roboto;
   font-size: 36px;
   letter-spacing: 12px;
   text-shadow: 0px 0px 50px #fff;

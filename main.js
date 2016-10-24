@@ -1,20 +1,17 @@
 console.log('Hello to you, curious fellow!');
 
-addClassesOnLoad(
-  ['.large-description', 'add-color'],
-  ['.background-video', 'opaque-video']
-);
+window.onload = function () {
+  var largeHeader = document.querySelector('.large-description');
+  largeHeader.classList.add('add-color');
 
-function addClassesOnLoad () {
-  var args = [].slice.call(arguments);
+  setVideoToBottom();
+}
 
-  window.onload = function () {
-    args.forEach(function(declaration) {
-      var elementName = declaration[0];
-      var className = declaration[1];
+window.onresize = setVideoToBottom;
 
-      var element = document.querySelector(elementName);
-      element.classList.add(className);
-    })
-  }
+function setVideoToBottom () {
+  var video = document.querySelector('.background-video');
+  var videoHeight = video.clientHeight;
+  var innerHeight = window.innerHeight;
+  video.style.top = innerHeight - (videoHeight - 105) + 'px';
 }
